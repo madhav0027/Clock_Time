@@ -37,10 +37,12 @@ function updateclock()
     if(time === 18)
     {
         meals = "Snack Time !";
+        img.src = "https://i.ytimg.com/vi/iw-EbIqbuBc/maxresdefault.jpg"
     }
     else if(time === 9)
     {
         meals = "Breakfast 🥞🥓🍳";
+        img.src = "https://static.vecteezy.com/system/resources/previews/001/938/156/original/breakfast-sandwich-set-of-food-on-white-background-illustration-vector.jpg";
     }
     else if(time ===  21)
     {
